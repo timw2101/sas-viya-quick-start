@@ -26,7 +26,7 @@ run;
 data work.home_equity;
     set work.t_home_equity;
     label APPDATE="Loan Application Time"
-          BAD="Loan Status"
+          BAD="Loan Code"
           CITY="City"
           CLAGE="Age of Oldest Credit Line (months)"
           CLNO="Number of Credit Lines"
